@@ -7,7 +7,12 @@
 //третій елемент - змінна thirdEl
 // для перевірки завдання запустити команду npx jest task1.test.js
 
-
+const list = document.querySelector('#list')
+const firstEl = list.firstElementChild;
+const lastEl = list.lastElementChild;
+const secondEl = firstEl.nextElementSibling;
+const fourthEl = lastEl.previousElementSibling;
+const thirdEl = secondEl.nextElementSibling;
 
 // module.exports = {
 //   firstEl,
