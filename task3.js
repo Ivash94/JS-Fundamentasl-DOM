@@ -13,15 +13,6 @@
 // Щоб перевірити правильність виконання введіть команду: npx jest test3.jest.js
 
 
-const tagToAdd = document.querySelector(".create_elements");
-function applyStyles() {
-    tagToAdd.innerHTML = `<main class="mainClass check item">         
-                             <div id="myDiv">
-                                <p>First paragraph</p>           
-                             </div>
-                           </main>`
-}
-
 
 
 function applyStyles() {
